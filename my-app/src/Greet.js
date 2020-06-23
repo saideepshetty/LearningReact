@@ -1,10 +1,10 @@
 //praticing Functional Components
 import React from 'react'
 
- function Greet() {
+ function Greet(props) {
     return (
         <div>
-            <h1>Hello Saideep</h1>
+            <h1>Hello {props.children}</h1>
         </div>
     )
 }
