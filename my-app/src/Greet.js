@@ -1,12 +1,5 @@
 //praticing Functional Components
 import React from 'react'
 
- function Greet(props) {
-    return (
-        <div>
-            <h1>Hello {props.children}</h1>
-        </div>
-    )
-}
-
+const Greet = (props) => <h1>Hello {props.children}</h1> 
 export default Greet
