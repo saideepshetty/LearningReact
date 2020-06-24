@@ -1,16 +1,19 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+
+import Hello from './Hello';
 import Greet from './Greet';
-import Welcome from './Welcome';
-import Hello from './Welcome';
 
-function App() {
-  return (
-   <div className="App">
-      <Hello />
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Greet name="Bruce"></Greet>
+        <Greet name= "Clark"></Greet>
+        <Greet name="Diana"></Greet>
+      </div>
+    );
+  }
 }
-
 export default App;
