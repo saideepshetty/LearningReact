@@ -6,12 +6,12 @@ import Hello from './Hello';
 import Greet from './Greet';
 
 class App extends Component {
-  render() {
+  render() { 
     return (
       <div className="App">
-        <Greet name="Bruce"></Greet>
-        <Greet name= "Clark"></Greet>
-        <Greet name="Diana"></Greet>
+        <Greet name="Bruce"> Wayne</Greet>
+        <Greet name= "Clark"> Kent</Greet>
+        <Greet name="Diana"> Prince</Greet>
       </div>
     );
   }
