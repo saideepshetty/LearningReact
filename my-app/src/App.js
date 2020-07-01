@@ -11,9 +11,6 @@ class App extends Component {
     return (
       <div className="App">
         <Message></Message>
-        <Greet name="Bruce"> Wayne</Greet>
-        <Greet name= "Clark"> Kent</Greet>
-        <Greet name="Diana"> Prince</Greet>
       </div>
     );
   }
